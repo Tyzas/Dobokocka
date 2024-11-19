@@ -1,7 +1,7 @@
 import re
 import tkinter as tk
 from tkinter import messagebox
-import kocka  # Importáljuk a kocka modult
+import kocka
 
 
 class Kockadobo:
