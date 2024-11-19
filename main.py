@@ -73,6 +73,8 @@ def szamitas():
 # Ablak inicializálása
 root = tk.Tk()
 root.title("RPG Kockadobó")
+root.geometry("400x400")
+root.minsize(400,400)
 
 # Beviteli mezők
 dobas_label = tk.Label(root, text="Add meg a kockadobásokat (pl. '1D6 + 2D8'):")
